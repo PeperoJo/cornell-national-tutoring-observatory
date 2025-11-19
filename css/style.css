@@ -39,22 +39,35 @@ body {
     background-color: var(--primary-red) !important;
     border-color: var(--primary-red) !important;
     border-radius: 100px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
 }
+
+
 
 .btn-primary:hover {
     background-color: #8b0000 !important;
     border-color: #8b0000 !important;
 }
 
-.btn-outline-danger {
+.btn-secondary {
     color: var(--primary-red) !important;
     border-color: var(--primary-red) !important;
+    border-radius: 100px;
+    background-color: var(--bg-light) !important;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
 }
 
-.btn-outline-danger:hover {
+.btn-secondary:hover {
     background-color: var(--primary-red) !important;
     border-color: var(--primary-red) !important;
-    color: white !important;
 }
 
 /* Object fit utility */
@@ -163,9 +176,25 @@ img {
     line-height: 28px; /* 140% */
 }
 
-
-
+.footer-category {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Roboto Mono";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 153.846% */
+    text-transform: uppercase;
+}
 /* Footer link hover */
+footer a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
+
 footer a:hover {
     opacity: 0.8;
     transition: opacity 0.2s;
