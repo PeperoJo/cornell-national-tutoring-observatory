@@ -17,6 +17,11 @@ async function loadComponent(elementId, componentPath) {
         
         container.innerHTML = html;
         
+        // Re-initialize Feather icons after component loads
+        if (typeof feather !== 'undefined') {
+            feather.replace();
+        }
+        
         // Re-initialize any scripts that need to run after component load
         if (elementId === 'navbar-container') {
             initNavbar();

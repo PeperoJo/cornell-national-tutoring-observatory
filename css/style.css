@@ -6,6 +6,28 @@
     --navbar-height: 86px;
 }
 
+/* Feather Icons styling */
+[data-feather] {
+    width: 1em;
+    height: 1em;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    vertical-align: middle;
+}
+
+.icon-16 {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-20 {
+    width: 20px;
+    height: 20px;
+}
+
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: var(--bg-light) !important;
@@ -13,12 +35,13 @@ body {
 }
 
 /* Custom button styles to match design */
-.btn-danger {
+.btn-primary {
     background-color: var(--primary-red) !important;
     border-color: var(--primary-red) !important;
+    border-radius: 100px;
 }
 
-.btn-danger:hover {
+.btn-primary:hover {
     background-color: #8b0000 !important;
     border-color: #8b0000 !important;
 }
@@ -53,6 +76,20 @@ img {
 /* Hero section styling */
 #hero-section {
     width: 100%;
+}
+
+.body-text {
+    color: var(--text-dark);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    opacity: 0.75;
+}
+
+.text-accent {
+    color: var(--primary-red) !important;
 }
 
 /* Row section styling */
@@ -110,7 +147,12 @@ img {
     line-height: 54px; /* 125% */
 }
 .hero-h2 {
-
+    color: var(--text-dark);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 133.333% */
 }
 .hero-h3 {
     color: var(--text-dark);
@@ -120,6 +162,8 @@ img {
     font-weight: 600;
     line-height: 28px; /* 140% */
 }
+
+
 
 /* Footer link hover */
 footer a:hover {
@@ -170,4 +214,70 @@ footer a:hover {
     height: 60px !important;
     width: auto !important;
     object-fit: contain;
+}
+
+/* About row vertical alignment */
+.vertical-center {
+    align-items: center;
+}
+
+/* About row image styling */
+#about-row-img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* Partners Logo Carousel */
+.partners-logo-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.partners-logo-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.partners-logo-scroll {
+    overflow: hidden;
+    width: 100%;
+}
+
+.partners-logo-track {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    animation: scroll-logos 30s linear infinite;
+    will-change: transform;
+}
+
+.partners-logo-container:hover .partners-logo-track {
+    animation-play-state: paused;
+}
+
+.partner-logo {
+    height: 64px;
+    width: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.partner-logo:hover {
+    opacity: 1;
+}
+
+@keyframes scroll-logos {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
