@@ -1,0 +1,173 @@
+/* Custom Styles - Bootstrap Overrides and Additions */
+:root {
+    --primary-red: #b21b1b;
+    --text-dark: #222222;
+    --bg-light: #f5f5f7;
+    --navbar-height: 86px;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--bg-light) !important;
+    padding-top: var(--navbar-height); /* Account for fixed navbar */
+}
+
+/* Custom button styles to match design */
+.btn-danger {
+    background-color: var(--primary-red) !important;
+    border-color: var(--primary-red) !important;
+}
+
+.btn-danger:hover {
+    background-color: #8b0000 !important;
+    border-color: #8b0000 !important;
+}
+
+.btn-outline-danger {
+    color: var(--primary-red) !important;
+    border-color: var(--primary-red) !important;
+}
+
+.btn-outline-danger:hover {
+    background-color: var(--primary-red) !important;
+    border-color: var(--primary-red) !important;
+    color: white !important;
+}
+
+/* Object fit utility */
+.object-fit-cover {
+    object-fit: cover;
+}
+
+/* Custom text colors */
+.text-danger {
+    color: var(--primary-red) !important;
+}
+
+/* Ensure images don't break layout */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hero section styling */
+#hero-section {
+    width: 100%;
+}
+
+/* Row section styling */
+#row-section {
+    width: 100%;
+    height: 100%;
+}
+
+/* Column styling */
+#col-A {
+
+}
+
+#col-B {
+
+}
+
+/* Column A row styling */
+#col-A-row-1 {
+    display: flex;
+    padding: 0 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+#col-A-row-2 {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+
+
+.hero-tile {
+    height: calc((100vh - var(--navbar-height)) / 2); /* Full height minus navbar */
+    min-height: 420px;
+    background-color: var(--bg-light);
+}
+
+.subtile {
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.hero-h1 {
+    color: var(--text-dark);
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px; /* 125% */
+}
+.hero-h2 {
+
+}
+.hero-h3 {
+    color: var(--text-dark);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+}
+
+/* Footer link hover */
+footer a:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+/* Blog filter active state */
+.filter-btn.active {
+    background-color: var(--primary-red) !important;
+    border-color: var(--primary-red) !important;
+    color: white !important;
+}
+
+/* Navbar link styling */
+.navbar-nav .nav-link {
+    color: var(--text-dark) !important;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    padding: 8px 12px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-red) !important;
+}
+
+/* Bootstrap navbar active state */
+.navbar-nav .nav-link.active {
+    color: var(--primary-red) !important;
+}
+
+/* Ensure navbar is fixed to top */
+.navbar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 1030 !important;
+    background-color: var(--bg-light) !important;
+}
+
+
+/* Navbar brand image sizing */
+.navbar-brand img {
+    height: 60px !important;
+    width: auto !important;
+    object-fit: contain;
+}

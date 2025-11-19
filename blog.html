@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - National Tutoring Observatory</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+    <!-- Navbar Component -->
+    <div id="navbar-container"></div>
+
+    <main>
+        <!-- Page Header -->
+        <section class="bg-danger text-white py-5" style="background: linear-gradient(135deg, #b21b1b 0%, #8B0000 100%) !important;">
+            <div class="container text-center">
+                <h1 class="display-4 fw-bold mb-3">Blog</h1>
+                <p class="lead opacity-75">Insights, analysis, and perspectives on tutoring research and practice</p>
+            </div>
+        </section>
+
+        <!-- Content Section -->
+        <section class="py-5">
+            <div class="container">
+                <!-- Filter Buttons -->
+                <div class="d-flex flex-wrap gap-2 justify-content-center mb-5">
+                    <button class="btn btn-danger rounded-pill active filter-btn" data-filter="all">All Posts</button>
+                    <button class="btn btn-outline-danger rounded-pill filter-btn" data-filter="research">Research</button>
+                    <button class="btn btn-outline-danger rounded-pill filter-btn" data-filter="practice">Practice</button>
+                    <button class="btn btn-outline-danger rounded-pill filter-btn" data-filter="policy">Policy</button>
+                    <button class="btn btn-outline-danger rounded-pill filter-btn" data-filter="case-studies">Case Studies</button>
+                </div>
+
+                <!-- Blog Grid -->
+                <div class="row g-4 mb-5">
+                    <div class="col-md-6 col-lg-4 blog-card" data-category="research">
+                        <article class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex gap-2 mb-2">
+                                    <small class="text-muted">December 10, 2024</small>
+                                    <span class="text-muted">•</span>
+                                    <small class="text-danger fw-semibold">Research</small>
+                                </div>
+                                <h3 class="h5 mb-3">The Science of Effective Tutoring: What the Research Tells Us</h3>
+                                <p class="text-dark opacity-75 mb-3">An in-depth look at the key factors that contribute to successful tutoring programs, based on our analysis of hundreds of tutoring interventions across the country.</p>
+                                <a href="#" class="text-danger text-decoration-none fw-semibold">Read full article →</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 blog-card" data-category="practice">
+                        <article class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex gap-2 mb-2">
+                                    <small class="text-muted">November 28, 2024</small>
+                                    <span class="text-muted">•</span>
+                                    <small class="text-danger fw-semibold">Practice</small>
+                                </div>
+                                <h3 class="h5 mb-3">Building Strong Tutor-Student Relationships: A Practitioner's Guide</h3>
+                                <p class="text-dark opacity-75 mb-3">Practical strategies for tutors to build meaningful connections with students, drawing from our research on relationship quality and learning outcomes.</p>
+                                <a href="#" class="text-danger text-decoration-none fw-semibold">Read full article →</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 blog-card" data-category="case-studies">
+                        <article class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex gap-2 mb-2">
+                                    <small class="text-muted">November 15, 2024</small>
+                                    <span class="text-muted">•</span>
+                                    <small class="text-danger fw-semibold">Case Studies</small>
+                                </div>
+                                <h3 class="h5 mb-3">Case Study: Scaling Tutoring in Rural Communities</h3>
+                                <p class="text-dark opacity-75 mb-3">How one school district in rural Montana successfully implemented a high-dosage tutoring program, overcoming unique challenges and achieving remarkable results.</p>
+                                <a href="#" class="text-danger text-decoration-none fw-semibold">Read full article →</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 blog-card" data-category="policy">
+                        <article class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex gap-2 mb-2">
+                                    <small class="text-muted">October 30, 2024</small>
+                                    <span class="text-muted">•</span>
+                                    <small class="text-danger fw-semibold">Policy</small>
+                                </div>
+                                <h3 class="h5 mb-3">The Future of Federal Tutoring Funding: Policy Implications</h3>
+                                <p class="text-dark opacity-75 mb-3">An analysis of current federal funding streams for tutoring and recommendations for how policymakers can support evidence-based programs.</p>
+                                <a href="#" class="text-danger text-decoration-none fw-semibold">Read full article →</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 blog-card" data-category="research">
+                        <article class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex gap-2 mb-2">
+                                    <small class="text-muted">October 18, 2024</small>
+                                    <span class="text-muted">•</span>
+                                    <small class="text-danger fw-semibold">Research</small>
+                                </div>
+                                <h3 class="h5 mb-3">Measuring Tutoring Impact: Beyond Test Scores</h3>
+                                <p class="text-dark opacity-75 mb-3">While test scores are important, effective tutoring programs impact students in many ways. We explore alternative metrics for measuring success.</p>
+                                <a href="#" class="text-danger text-decoration-none fw-semibold">Read full article →</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 blog-card" data-category="practice">
+                        <article class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex gap-2 mb-2">
+                                    <small class="text-muted">October 5, 2024</small>
+                                    <span class="text-muted">•</span>
+                                    <small class="text-danger fw-semibold">Practice</small>
+                                </div>
+                                <h3 class="h5 mb-3">Technology in Tutoring: Tools That Enhance (Not Replace) Human Connection</h3>
+                                <p class="text-dark opacity-75 mb-3">How technology can support tutors and students while maintaining the personal relationships that make tutoring effective.</p>
+                                <a href="#" class="text-danger text-decoration-none fw-semibold">Read full article →</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+                <nav aria-label="Blog pagination">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">Previous</a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container-fluid px-4">
+            <div class="row align-items-center mb-4">
+                <div class="col-md-4">
+                    <img src="img/cornell-logo.svg" alt="Cornell" class="img-fluid" style="height: 64px;">
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="img/mit-logo.svg" alt="MIT" class="img-fluid" style="height: 64px;">
+                </div>
+                <div class="col-md-4 text-end">
+                    <img src="img/cmu-logo.svg" alt="Carnegie Mellon" class="img-fluid" style="height: 32px;">
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <p class="text-uppercase small text-white-50 mb-3 fw-bold">Category A</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum A</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum B</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum C</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum D</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p class="text-uppercase small text-white-50 mb-3 fw-bold">Category B</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum E</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum F</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum G</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum H</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p class="text-uppercase small text-white-50 mb-3 fw-bold">Category C</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum I</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum J</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum K</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum L</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p class="text-uppercase small text-white-50 mb-3 fw-bold">Category D</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum M</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum N</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum O</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Lorem Ipsum P</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="row">
+                <div class="col-12 text-end">
+                    <p class="mb-0 small">© Copyright National Tutoring Observatory, 2025 All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Component Loader -->
+    <script src="js/components.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

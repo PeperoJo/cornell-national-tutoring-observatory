@@ -1,0 +1,11 @@
+{
+    "name": "cornell-national-tutoring-observatory",
+    "version": "1.0.0",
+    "description": "Local development server",
+    "scripts": {
+      "server": "npx serve . -p 8000",
+      "start": "npx serve . -p 8000"
+    }
+  }
+  
+  
