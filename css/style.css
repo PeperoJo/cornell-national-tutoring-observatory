@@ -70,6 +70,34 @@ body {
     border-color: var(--primary-red) !important;
 }
 
+.btn-outline-white {
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    border-radius: 100px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    width: auto !important;
+    align-self: flex-start !important;
+}
+
+.btn-outline-white:hover {
+    background-color: #FFFFFF !important;
+    color: inherit !important;
+}
+
+/* Button in dark background section - text should be dark on hover */
+.bg-dark .btn-outline-white:hover {
+    color: #212529 !important;
+}
+
+/* Button in red background section - text should be red on hover */
+[style*="background-color: #b21b1b"] .btn-outline-white:hover,
+[style*="background-color:#b21b1b"] .btn-outline-white:hover {
+    color: #b21b1b !important;
+}
 /* Object fit utility */
 .object-fit-cover {
     object-fit: cover;
