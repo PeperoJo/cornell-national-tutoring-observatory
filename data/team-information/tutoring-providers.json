@@ -2,7 +2,7 @@
   {
     "name": "Alex Thompson",
     "position": "Provider Representative",
-    "img": "/img/team/tutoring-providers/alex-thompson.jpg",
+    "img": "img/team/tutoring-providers/alex-thompson.jpg",
     "description": "Alex represents a leading national tutoring provider with extensive experience in scaling high-quality tutoring programs. They bring practical insights from working directly with students and educators.",
     "social": {
       "website": "",
@@ -14,7 +14,7 @@
   {
     "name": "Maria Garcia",
     "position": "Provider Representative",
-    "img": "/img/team/tutoring-providers/maria-garcia.jpg",
+    "img": "img/team/tutoring-providers/maria-garcia.jpg",
     "description": "Maria leads a community-based tutoring organization focused on serving underserved populations. Her organization has developed innovative models for personalized learning support.",
     "social": {
       "website": "",
@@ -26,7 +26,7 @@
   {
     "name": "David Park",
     "position": "Provider Representative",
-    "img": "/img/team/tutoring-providers/david-park.jpg",
+    "img": "img/team/tutoring-providers/david-park.jpg",
     "description": "David is the founder of an EdTech tutoring platform that combines AI with human tutors. His platform has served thousands of students and provides valuable insights into technology-enhanced tutoring.",
     "social": {
       "website": "",

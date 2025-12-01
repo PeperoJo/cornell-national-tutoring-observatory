@@ -2,7 +2,7 @@
   {
     "name": "Sarah Johnson",
     "position": "Advisory Board Member",
-    "img": "/img/team/practitioner-advisory-board/sarah-johnson.jpg",
+    "img": "img/team/practitioner-advisory-board/sarah-johnson.jpg",
     "description": "Sarah brings extensive experience in K-12 education and tutoring practices. She has worked with school districts across the country to implement effective tutoring programs that improve student outcomes.",
     "social": {
       "website": "",
@@ -14,7 +14,7 @@
   {
     "name": "Michael Chen",
     "position": "Advisory Board Member",
-    "img": "/img/team/practitioner-advisory-board/michael-chen.jpg",
+    "img": "img/team/practitioner-advisory-board/michael-chen.jpg",
     "description": "Michael is a veteran educator with over 20 years of experience in curriculum development and instructional design. He specializes in creating evidence-based tutoring interventions.",
     "social": {
       "website": "",
@@ -26,7 +26,7 @@
   {
     "name": "Emily Rodriguez",
     "position": "Advisory Board Member",
-    "img": "/img/team/practitioner-advisory-board/emily-rodriguez.jpg",
+    "img": "img/team/practitioner-advisory-board/emily-rodriguez.jpg",
     "description": "Emily is a leading practitioner in online tutoring and has developed innovative approaches to remote learning. Her work focuses on equity and access in educational technology.",
     "social": {
       "website": "",

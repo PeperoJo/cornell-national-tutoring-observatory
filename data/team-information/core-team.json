@@ -2,7 +2,7 @@
   {
     "name": "Rene Kizilcec",
     "position": "Principal Investigator",
-    "img": "/img/team/core/rene-kizilcec.jpg",
+    "img": "img/team/core/rene-kizilcec.jpg",
     "description": "Rene is an Associate Professor in the Bowers College of Computing and Information Science at Cornell University. He studies behavioral, psychological, and computational aspects of technology in education to inform practices and policies that promote learning, equity, and academic and career success.",
     "social": {
       "website": "https://rene.kizilcec.com/",
@@ -14,7 +14,7 @@
   {
     "name": "Justin Reich",
     "position": "Co-Principal Investigator",
-    "img": "/img/team/core/justin-reich.jpg",
+    "img": "img/team/core/justin-reich.jpg",
     "description": "Justin is an Associate Professor in the Comparative Media Studies/Writing department at MIT. He studies online learning, and how teachers learn. Justin is a former high school history teacher, wrestling coach, and wilderness medicine instructor.",
     "social": {
       "website": "https://tsl.mit.edu/team/justin-reich/",
@@ -26,7 +26,7 @@
   {
     "name": "Rachel Slama",
     "position": "Partnership Director & Co-PI",
-    "img": "/img/team/core/rachel-slama.jpg",
+    "img": "img/team/core/rachel-slama.jpg",
     "description": "Rachel Slama is Associate Director of the Future of Learning Lab at Cornell's Bowers College of Computing and Information Science. Her research explores how technology can accelerate learning in a rapidly evolving education landscape. She also serves as Co-PI and Partnerships Director of the National Tutoring Observatory. Previously, she led workforce and training initiatives at RAND, MIT, and the NSF. Slama holds a doctorate in Education Policy from Harvard, is a former NYC teacher, and a parent of four public school students—fueling her commitment to building technology that truly serves educators and learners.",
     "social": {
       "website": "https://www.rand.org/pubs/authors/s/slama_rachel.html",
@@ -38,7 +38,7 @@
   {
     "name": "Ken Koedinger",
     "position": "Co-Principal Investigator",
-    "img": "/img/team/core/ken-koedinger.jpg",
+    "img": "img/team/core/ken-koedinger.jpg",
     "description": "Ken is the Hillman Professor of Computer Science and Psychology at Carnegie Mellon University and the founder of PLUS tutoring. A pioneering innovator in education technology, he co-founded Carnegie Learning, Inc., which has delivered Cognitive Tutor-based courses to millions of students.",
     "social": {
       "website": "https://hcii.cmu.edu/people/ken-koedinger",
@@ -50,7 +50,7 @@
   {
     "name": "Danielle Thomas",
     "position": "Director of Research to Practice",
-    "img": "/img/team/core/danielle-thomas.jpg",
+    "img": "img/team/core/danielle-thomas.jpg",
     "description": "Danielle is a Systems Scientist faculty in the Human-Computer Interaction Institute at Carnegie Mellon University. She also is the Research Lead at PLUS tutoring, where Danielle has led her team in publishing considerable progress towards understanding tutor-student and human-AI interactions in learning.",
     "social": {
       "website": "https://scholar.google.com/citations?user=PMEBVS8AAAAJ&hl=en",
@@ -62,7 +62,7 @@
   {
     "name": "Doug Pietrzak",
     "position": "Technology Director",
-    "img": "/img/team/core/doug-pietrzak.jpg",
+    "img": "img/team/core/doug-pietrzak.jpg",
     "description": "Doug is an educator at heart — a former CPS English teacher focused on equity who combines his passion of tech and education to drive impactful learning experiences and products at scale. He is one of the original members of Lynda.com and EdX and was a major contributor to education at Google. He is the CEO of Freshcognate.",
     "social": {
       "website": "",
@@ -74,7 +74,7 @@
   {
     "name": "Laura Schad",
     "position": "Project Manager",
-    "img": "/img/team/core/laura-schad.png",
+    "img": "img/team/core/laura-schad.png",
     "description": "Laura is a Program Manager at the Cornell Ann S. Bowers College of Computing and Information Science, where she plays a key role in driving strategic initiatives within the institution. She manages a diverse portfolio of research-focused programs and projects that foster innovation and collaboration across various domains of computing and information science.",
     "social": {
       "website": "",
@@ -86,7 +86,7 @@
   {
     "name": "Joshua Marland",
     "position": "Managing Director",
-    "img": "/img/team/core/joshua-marland.jpg",
+    "img": "img/team/core/joshua-marland.jpg",
     "description": "Josh is the Managing Director for the National Tutoring Observatory. He has worked in a variety of education data and technology roles for almost 20 years. He's driven by finding new ways to create opportunities for those not served by traditional systems and structures. His research has focused at the intersection of measurement and policy. He's the first in his family to go to college and a proud community college graduate.",
     "social": {
       "website": "https://www.linkedin.com/in/joshua-marland-86b0b84/",
@@ -98,7 +98,7 @@
   {
     "name": "Stacey Stone",
     "position": "Partnership Manager",
-    "img": "/img/team/core/stacey-stone.jpg",
+    "img": "img/team/core/stacey-stone.jpg",
     "description": "Stacey is the Partnership Manager for the National Tutoring Observatory. In addition, she is the Chair's Assistant in the Department of Computer Science within the Cornell Ann S. Bowers College of Computing and Information Science.",
     "social": {
       "website": "",
@@ -110,7 +110,7 @@
   {
     "name": "Daryl Hedley",
     "position": "Senior Education Product Engineer",
-    "img": "/img/team/core/daryl-hedley.jpg",
+    "img": "img/team/core/daryl-hedley.jpg",
     "description": "Daryl Hedley is a product engineer building practical, data-driven tools to empower teachers and to enhance both tutoring sessions and classroom instruction. He has worked in learning and technology for over 20 years, building scalable data pipelines, applying AI to learning challenges, and building a range of educational technologies. At the National Tutoring Observatory, he leads the engineering of open-source tools that help researchers and practitioners make sense of complex tutoring data and is committed to creating impactful solutions that drive measurable improvements in teaching and student outcomes.",
     "social": {
       "website": "",
@@ -122,7 +122,7 @@
   {
     "name": "Kirk Vanacore",
     "position": "Research Director",
-    "img": "/img/team/core/kirk-vanacore.jpg",
+    "img": "img/team/core/kirk-vanacore.jpg",
     "description": "Kirk Vanacore is the Research Director for the NTO and an Assistant Research Professor in the Bowers College of Computing and Information Science at Cornell University. His research blends statistics, machine learning, and artificial intelligence to uncover causal learning mechanisms in environments that combine human and AI instruction.",
     "social": {
       "website": "",
@@ -134,7 +134,7 @@
   {
     "name": "Bakhtawar Ahtisham",
     "position": "Learning Analyst and Engineer",
-    "img": "/img/team/core/bakhtawar-ahtisham.jpg",
+    "img": "img/team/core/bakhtawar-ahtisham.jpg",
     "description": "Bakhtawar Ahtisham is a Learning Analyst and Engineer at the National Tutoring Observatory. She holds a Master's degree in Information Science from Cornell University and brings a multidisciplinary background in UX research, education technology, and AI-powered learning systems. Her work focuses on developing data-driven tools to support equitable, effective tutoring by combining qualitative research with scalable engineering solutions. At the NTO, Bakhtawar contributes to the design and analysis of open-source annotation systems and AI-driven insights that support researchers and practitioners in understanding tutoring practices at scale.",
     "social": {
       "website": "",
@@ -146,7 +146,7 @@
   {
     "name": "Zhuqian Zhou",
     "position": "Postdoctoral Researcher",
-    "img": "/img/team/core/zhuqian-zhou.jpg",
+    "img": "img/team/core/zhuqian-zhou.jpg",
     "description": "Zhuqian Zhou is a postdoctoral researcher at the National Tutoring Observatory. Her work brings together data from diverse sources to deepen understanding of learners' cognitive processes, guide the design of effective learning interventions, and address ethical considerations in artificial intelligence and education (AIEd) research. Beyond academia, she co-founded an EdTech company that supports high school students in exploring career pathways and serves as a board member of a nonprofit organization dedicated to supporting the Chinese community in the Greater New York area.",
     "social": {
       "website": "",

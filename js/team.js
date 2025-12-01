@@ -12,7 +12,7 @@ const categoryFileMap = {
 async function loadMemberTemplate() {
     if (memberTemplate) return memberTemplate;
 
-    const response = await fetch('/components/member.html');
+    const response = await fetch('components/member.html');
     if (!response.ok) {
         throw new Error(`HTTP error loading member template! status: ${response.status}`);
     }
