@@ -64,10 +64,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const footerContainer = document.getElementById('footer-container');
     
     if (navbarContainer) {
-        loadComponent('navbar-container', '/components/navbar.html');
+        // Use a path relative to the current page so it works on GitHub Pages and local servers
+        loadComponent('navbar-container', 'components/navbar.html');
     }
     
     if (footerContainer) {
-        loadComponent('footer-container', '/components/footer.html');
+        // Use a path relative to the current page so it works on GitHub Pages and local servers
+        loadComponent('footer-container', 'components/footer.html');
     }
 });
