@@ -49,6 +49,12 @@
         <!-- News Feed (Supascribe Substack Embed) -->
         <section class="pb-5 px-4 px-md-5 pt-0">
             <div class="container-fluid px-0">
+                <!-- Loading state while Supascribe embed initializes -->
+                <div id="supascribe-loading" class="text-center py-5">
+                    <div class="spinner-border text-danger" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
                 <!-- Feed embed code -->
                 <div data-supascribe-embed-id="453748542343" data-supascribe-feed></div>
             </div>
@@ -64,6 +70,8 @@
     <script src="https://js.supascribe.com/v1/loader/KHILPJPbgCPV7ci8R0t9vansynh2.js" async></script>
     <!-- Component Loader -->
     <script src="js/components.js"></script>
+    <!-- Supascribe loading helper -->
+    <script src="js/supascribe.js"></script>
     <!-- Custom JS -->
     <script src="js/main.js"></script>
     <!-- Initialize Feather Icons -->

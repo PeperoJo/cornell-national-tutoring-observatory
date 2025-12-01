@@ -1,16 +1,21 @@
 // Component loader for navbar and footer
-function resolveComponentPath(relativePath) {
-    // Components live beside index.html at the site root.
-    // Compute how many segments deep the current page is (after the project root),
-    // then prefix "../" accordingly so paths work from subdirectories (e.g., /approach/).
-    const segments = window.location.pathname.split('/').filter(Boolean); // e.g. ["project", "approach", "page.html"]
-    if (segments.length <= 1) {
-        // At root or project root (e.g. /index.html or /project/)
-        return relativePath;
+const PROJECT_ROOT = 'cornell-national-tutoring-observatory';
+
+function getBasePath() {
+    const segments = window.location.pathname.split('/').filter(Boolean);
+    const idx = segments.indexOf(PROJECT_ROOT);
+    if (idx !== -1) {
+        // e.g. /cornell-national-tutoring-observatory/
+        return '/' + segments.slice(0, idx + 1).join('/') + '/';
     }
-    const depthFromRoot = segments.length - 1; // ignore the last segment (file)
-    const prefix = '../'.repeat(depthFromRoot - 1);
-    return prefix + relativePath;
+    // Fallback: user/org GitHub Pages or custom domain at root
+    return '/';
+}
+
+function resolveComponentPath(relativePath) {
+    // Components live beside index.html under the project root
+    const base = getBasePath();
+    return base + relativePath;
 }
 
 async function loadComponent(elementId, componentPath) {
@@ -23,13 +28,34 @@ async function loadComponent(elementId, componentPath) {
         
         const html = await response.text();
         const container = document.getElementById(elementId);
-        
+        const basePath = getBasePath();
+
         if (!container) {
             console.error(`Container element ${elementId} not found`);
             return;
         }
         
         container.innerHTML = html;
+
+        // Normalize image sources in components so they work from any page depth
+        const imgs = container.querySelectorAll('img');
+        imgs.forEach(img => {
+            const src = img.getAttribute('src');
+            if (!src || src.startsWith('http') || src.startsWith('data:')) return;
+            const clean = src.replace(/^\//, ''); // remove leading slash if present
+            img.setAttribute('src', basePath + clean);
+        });
+
+        // Fix navbar links so they always point to project-root pages (not relative to subdirectories)
+        if (elementId === 'navbar-container') {
+            const links = container.querySelectorAll('a.nav-link, .dropdown-menu a.dropdown-item, .navbar-brand');
+            links.forEach(link => {
+                const href = link.getAttribute('href');
+                if (!href || href.startsWith('http') || href.startsWith('#')) return;
+                const clean = href.replace(/^\//, '');
+                link.setAttribute('href', basePath + clean);
+            });
+        }
         
         // Re-initialize Feather icons after component loads
         if (typeof feather !== 'undefined') {

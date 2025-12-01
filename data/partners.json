@@ -1,55 +1,55 @@
 [
   {
     "name": "Saga Education",
-    "img": "/img/partners/saga.png",
+    "img": "img/partners/saga.png",
     "website": "https://www.sagaeducation.org/",
     "description": "Saga Education is a national leader in high-impact, in-school tutoring that leverages both the power of human capital and technology to accelerate student outcomes and create more equitable learning for students."
   },
   {
     "name": "TeachFX",
-    "img": "/img/partners/teachfx.png",
+    "img": "img/partners/teachfx.png",
     "website": "https://teachfx.com/",
     "description": "TeachFX is a scalable and effective way to support all teachers with private, automated feedback on their instruction. They make it easy for teachers to record and reflect on their lessons, set goals, and track progress over time."
   },
   {
-    "name": "PLUS - Personalized Learning Squared",
-    "img": "/img/partners/plus.png",
+    "name": "PLUS — Personalized Learning Squared",
+    "img": "img/partners/plus.png",
     "website": "https://plustutoring.org/",
     "description": "PLUS is a comprehensive tutoring platform designed to connect students with human tutors, as needed, and in conjunction with AI-driven math software. PLUS aims to bridge learning gaps by focusing on historically underserved students and providing support during the school day."
   },
   {
     "name": "Carnegie Learning",
-    "img": "/img/partners/carnegielearning.png",
+    "img": "img/partners/carnegielearning.png",
     "website": "https://www.carnegielearning.com/",
     "description": "Carnegie Learning provides education technology, curriculum, and professional learning solutions for K-12 students. Incorporating a suite of solutions, Carnegie Learning focuses on raising student achievement with learning science and AI."
   },
   {
     "name": "Eedi",
-    "img": "/img/partners/eedi.png",
+    "img": "img/partners/eedi.png",
     "website": "https://eedi.com/",
     "description": "Eedi is an online math learning platform that uses diagnostic questioning and AI technology to identify and address students\u2019 misconceptions. Eedi assesses a student\u2019s knowledge gaps and then provides targeted practice to close them, often with the help of a chat system to guide their understanding."
   },
   {
     "name": "Third Space Learning",
-    "img": "/img/partners/thirdspace.png",
+    "img": "img/partners/thirdspace.png",
     "website": "https://thirdspacelearning.com/",
     "description": "Third Space Learning provides personalized one-on-one math tutoring for schools and districts. With STEM graduates and undergraduates as trained tutors, they focus on making positive impacts on student achievement and social-emotional learning."
   },
   {
     "name": "UPchieve",
-    "img": "/img/partners/upchieve.png",
+    "img": "img/partners/upchieve.png",
     "website": "https://upchieve.org/",
     "description": "UPchieve offers personalized one-on-one tutoring support. Using the app, students can request help and get matched with a live coach in minutes. They aim to democratize access to academic support so that all students have an equal opportunity to finish high school, attend college, and achieve upward mobility."
   },
   {
     "name": "Databrary",
-    "img": "/img/partners/databrary.png",
+    "img": "img/partners/databrary.png",
     "website": "https://databrary.org/",
     "description": "Databrary is a web-based data library that allows researchers to store, share, and reuse research data. It is a joint project between Penn State University and New York University."
   },
   {
     "name": "FreshCognate",
-    "img": "/img/partners/freshcognate.png",
+    "img": "img/partners/freshcognate.png",
     "website": "https://freshcognate.com/",
     "description": "FreshCognate is a boutique consulting and design firm specializing in end-to-end learning solutions that drive measurable business impact. The company partners with leading organizations to address complex educational challenges at scale, ranging from LMS evaluation and implementation to skills assessment and program execution."
   }

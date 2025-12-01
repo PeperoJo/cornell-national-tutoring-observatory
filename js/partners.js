@@ -4,7 +4,7 @@ let partnersDataCache = null;
 async function loadPartnerTemplate() {
     if (partnerTemplate) return partnerTemplate;
 
-    const response = await fetch('/components/partner.html');
+    const response = await fetch('components/partner.html');
     if (!response.ok) {
         throw new Error(`HTTP error loading partner template! status: ${response.status}`);
     }
