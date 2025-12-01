@@ -57,7 +57,7 @@ body {
     color: var(--primary-red) !important;
     border-color: var(--primary-red) !important;
     border-radius: 100px;
-    background-color: var(--bg-light) !important;
+    background-color: inherit !important;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
@@ -68,6 +68,7 @@ body {
 .btn-secondary:hover {
     background-color: var(--primary-red) !important;
     border-color: var(--primary-red) !important;
+    color: #FFFFFF !important;
 }
 
 .btn-outline-white {
@@ -204,6 +205,16 @@ img {
     line-height: 28px; /* 140% */
 }
 
+/* Event card title - clamp to 3 lines, reserve 3 lines of space */
+.event-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: 84px; /* 3 * 28px line-height */
+    min-height: 84px; /* always reserve space for 3 lines */
+}
+
 .footer-category {
     color: rgba(255, 255, 255, 0.75);
     font-family: "Roboto Mono";
@@ -248,6 +259,33 @@ footer a:hover {
 
 .navbar-nav .nav-link:hover {
     color: var(--primary-red) !important;
+}
+
+/* Navbar dropdown menu styling */
+.dropdown-menu {
+    border-color: #000 !important;
+    border-radius: 0 !important;
+}
+
+.dropdown-menu .dropdown-divider {
+    border-top-color: #000 !important;
+}
+
+/* Dropdown items styled like navbar items */
+.dropdown-menu .dropdown-item {
+    color: var(--text-dark) !important;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 8px 12px;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    color: var(--primary-red) !important;
+    background-color: transparent !important;
 }
 
 /* Bootstrap navbar active state */

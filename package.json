@@ -4,7 +4,8 @@
     "description": "Local development server",
     "scripts": {
       "server": "npx serve . -p 8000",
-      "start": "npx serve . -p 8000"
+      "start": "npx serve . -p 8000",
+          "serve": "npx serve . -p 8000"
     }
   }
   

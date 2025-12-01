@@ -1,0 +1,99 @@
+[
+  {
+    "year": 2023,
+    "events": [
+      {
+        "month": "November 2023",
+        "title": "Project Open House",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "December 2023",
+        "title": "Bring Your Own Data Meeting",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "events": [
+      {
+        "month": "January 2024",
+        "title": "Platform/Service Deep Dive- Carnegie Learning",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "February 2024",
+        "title": "PII and De-identification with Ryan Baker and Langdon Holmes",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "March 2024",
+        "title": "July Convening Planning",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "April 2024",
+        "title": "Databrary with Karen Adolph, Rick Gilmore, and Elizabeth Sheckler",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "May 2024",
+        "title": "Teacher Perspectives on Fair and Ethical AI",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "July 2024",
+        "title": "Partner Convening at Georgia Tech",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "events": [
+      {
+        "month": "January 2025",
+        "title": "Partner Launch Meeting",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "April 2025",
+        "title": "Tutor Move Taxonomies",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "May 2025",
+        "title": "NTO Engineering Pipelines",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "June 2025",
+        "title": "NTO Tech Demo",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "July 2025",
+        "title": "Data Agreements",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "August 2025",
+        "title": "Tech Infrastructure",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "September 2025",
+        "title": "Tutoring Move Annotator",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      },
+      {
+        "month": "October 2025",
+        "title": "Data Competitions",
+        "slidesUrl": "https://nationaltutoringobservatory.org/approach/"
+      }
+    ]
+  }
+]
+
+

@@ -64,10 +64,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const footerContainer = document.getElementById('footer-container');
     
     if (navbarContainer) {
-        loadComponent('navbar-container', 'components/navbar.html');
+        loadComponent('navbar-container', '/components/navbar.html');
     }
     
     if (footerContainer) {
-        loadComponent('footer-container', 'components/footer.html');
+        loadComponent('footer-container', '/components/footer.html');
     }
 });
