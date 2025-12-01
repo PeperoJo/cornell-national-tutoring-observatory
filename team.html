@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News - National Tutoring Observatory</title>
+    <title>Meet the Team - National Tutoring Observatory</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Google Fonts -->
@@ -15,42 +15,39 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="bg-light">
+    <body class="bg-light">
     <!-- Navbar Component -->
     <div id="navbar-container"></div>
 
     <main>
-        <!-- Header Section -->
         <section class="py-5 px-4 px-md-5">
             <div class="container-fluid px-0">
                 <div class="row g-0">
                     <div class="col-12">
-                        <div class="d-flex flex-column gap-3">
+                        <div class="d-flex flex-column gap-4">
                             <div class="d-flex flex-column gap-1">
-                                <h1 class="fw-semibold mb-0" style="font-size: 36px; line-height: 48px; color: #222222;">
-                                    News
-                                </h1>
+                                <h1 class="fw-semibold mb-0" style="font-size: 36px; line-height: 48px; color: #222222;">Meet the Team</h1>
                             </div>
-                            <p class="mb-0 body-text">
-                                Stay up to date on the latest announcements, partnerships, and findings from the National Tutoring Observatory.
-                            </p>
-                            <div class="d-flex flex-wrap gap-2">
-                                <a href="/contact.html" class="btn btn-outline-dark d-inline-flex align-items-center">
-                                    <span>Contact Us</span>
-                                    <i data-feather="arrow-right" class="ms-2 icon-20"></i>
-                                </a>
+                            <div class="d-flex flex-wrap gap-3">
+                                <button class="btn btn-primary team-tab active" data-category="core-team">
+                                    Core Team
+                                </button>
+                                <button class="btn btn-outline-dark team-tab" data-category="practitioner-advisory-board">
+                                    Practitioner Advisory Board
+                                </button>
+                                <button class="btn btn-outline-dark team-tab" data-category="national-advisory-board">
+                                    National Advisory Board
+                                </button>
+                                <button class="btn btn-outline-dark team-tab" data-category="tutoring-providers">
+                                    Tutoring Providers
+                                </button>
+                            </div>
+                            <div class="row g-4 mt-2" id="team-members-container">
+                                <!-- Team members will be loaded here dynamically -->
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- News Feed (Supascribe Substack Embed) -->
-        <section class="pb-5 px-4 px-md-5 pt-0">
-            <div class="container-fluid px-0">
-                <!-- Feed embed code -->
-                <div data-supascribe-embed-id="453748542343" data-supascribe-feed></div>
             </div>
         </section>
     </main>
@@ -60,15 +57,16 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Supascribe Script -->
-    <script src="https://js.supascribe.com/v1/loader/KHILPJPbgCPV7ci8R0t9vansynh2.js" async></script>
     <!-- Component Loader -->
     <script src="/js/components.js"></script>
     <!-- Custom JS -->
     <script src="/js/main.js"></script>
+    <!-- Team page JS -->
+    <script src="/js/team.js"></script>
     <!-- Initialize Feather Icons -->
     <script>
         feather.replace();
     </script>
 </body>
 </html>
+

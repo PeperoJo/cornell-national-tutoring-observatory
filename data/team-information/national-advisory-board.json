@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Dr. Patricia Williams",
+    "position": "Advisory Board Member",
+    "img": "/img/team/national-advisory-board/patricia-williams.jpg",
+    "description": "Dr. Williams is a nationally recognized expert in education policy and research. She has advised numerous federal and state education initiatives and brings deep insights into educational equity and access.",
+    "social": {
+      "website": "",
+      "email": "",
+      "twitter": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "name": "Dr. Robert Martinez",
+    "position": "Advisory Board Member",
+    "img": "/img/team/national-advisory-board/robert-martinez.jpg",
+    "description": "Dr. Martinez is a prominent researcher in learning sciences and cognitive psychology. His work on student motivation and engagement has influenced tutoring practices nationwide.",
+    "social": {
+      "website": "",
+      "email": "",
+      "twitter": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "name": "Dr. Jennifer Kim",
+    "position": "Advisory Board Member",
+    "img": "/img/team/national-advisory-board/jennifer-kim.jpg",
+    "description": "Dr. Kim is an expert in educational technology and data science. She has led large-scale research projects on the effectiveness of tutoring interventions and learning analytics.",
+    "social": {
+      "website": "",
+      "email": "",
+      "twitter": "",
+      "linkedin": ""
+    }
+  }
+]
+
+
+

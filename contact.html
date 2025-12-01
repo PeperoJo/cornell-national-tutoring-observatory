@@ -10,93 +10,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="bg-light">
     <!-- Navbar Component -->
     <div id="navbar-container"></div>
 
     <main>
-        <!-- Page Header -->
-        <section class="bg-danger text-white py-5" style="background: linear-gradient(135deg, #b21b1b 0%, #8B0000 100%) !important;">
-            <div class="container text-center">
-                <h1 class="display-4 fw-bold mb-3">Contact Us</h1>
-                <p class="lead opacity-75">Get in touch with our team</p>
-            </div>
-        </section>
-
-        <!-- Content Section -->
-        <section class="py-5">
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                        <h2 class="mb-4">Get in Touch</h2>
-                        <p class="text-dark opacity-75 mb-4">We'd love to hear from you. Whether you're interested in partnering with us, have questions about our research, or want to learn more about our work, please reach out.</p>
-                        
-                        <div class="mb-4">
-                            <h3 class="h5 mb-3">📍 Address</h3>
-                            <p class="text-dark opacity-75">Cornell University<br>
-                            Ithaca, NY 14850<br>
-                            United States</p>
-                        </div>
-
-                        <div class="mb-4">
-                            <h3 class="h5 mb-3">📧 Email</h3>
-                            <p class="text-dark opacity-75 mb-2">General Inquiries: <a href="mailto:info@tutoringobservatory.cornell.edu" class="text-danger">info@tutoringobservatory.cornell.edu</a></p>
-                            <p class="text-dark opacity-75 mb-2">Research Partnerships: <a href="mailto:research@tutoringobservatory.cornell.edu" class="text-danger">research@tutoringobservatory.cornell.edu</a></p>
-                            <p class="text-dark opacity-75 mb-2">Media Inquiries: <a href="mailto:media@tutoringobservatory.cornell.edu" class="text-danger">media@tutoringobservatory.cornell.edu</a></p>
-                        </div>
-
-                        <div class="mb-4">
-                            <h3 class="h5 mb-3">📞 Phone</h3>
-                            <p class="text-dark opacity-75 mb-2">Main Office: (607) 555-0123</p>
-                            <p class="text-dark opacity-75">Hours: Monday - Friday, 9:00 AM - 5:00 PM EST</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="card shadow-sm">
-                            <div class="card-body p-4">
-                                <h2 class="mb-4">Send Us a Message</h2>
-                                <form id="contactForm">
-                                    <div class="mb-3">
-                                        <label for="name" class="form-label">Name *</label>
-                                        <input type="text" class="form-control" id="name" name="name" required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Email *</label>
-                                        <input type="email" class="form-control" id="email" name="email" required>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="organization" class="form-label">Organization</label>
-                                        <input type="text" class="form-control" id="organization" name="organization">
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="subject" class="form-label">Subject *</label>
-                                        <select class="form-select" id="subject" name="subject" required>
-                                            <option value="">Select a subject</option>
-                                            <option value="general">General Inquiry</option>
-                                            <option value="partnership">Partnership Opportunity</option>
-                                            <option value="research">Research Collaboration</option>
-                                            <option value="media">Media Inquiry</option>
-                                            <option value="other">Other</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="message" class="form-label">Message *</label>
-                                        <textarea class="form-control" id="message" name="message" rows="6" required></textarea>
-                                    </div>
-
-                                    <button type="submit" class="btn btn-danger w-100">Send Message</button>
-                                </form>
+        <!-- Contact Header Section -->
+        <section class="py-5 px-4 px-md-5">
+            <div class="container-fluid px-0">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <div class="d-flex flex-column gap-3">
+                            <div class="d-flex flex-column gap-1">
+                                <h1 class="fw-semibold mb-0" style="font-size: 36px; line-height: 48px; color: #222222;">
+                                    Contact
+                                </h1>
+                            </div>
+                            <div>
+                                <p class="mb-1 body-text">
+                                    How can we help or can you help us?
+                                </p>
+                                <p class="mb-0 body-text">
+                                    Please contact us at
+                                    <a href="mailto:nat_tutoring_ob@cornell.edu" class="text-accent text-decoration-none">
+                                        nat_tutoring_ob@cornell.edu
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="d-flex flex-wrap gap-2">
+                                <a href="mailto:nat_tutoring_ob@cornell.edu" class="btn btn-outline-dark d-inline-flex align-items-center">
+                                    <span>Send Email</span>
+                                    <i data-feather="arrow-right" class="ms-2 icon-20"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="pb-5 px-4 px-md-5 pt-0">
+            <div class="container-fluid px-0">
+                <div class="ratio ratio-16x9 border border-dark">
+                    <!-- Cornell CIS (Gates Hall) Google Map Embed -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.767553030993!2d-76.4881636843163!3d42.44452947918048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0818b4a60b9e1%3A0x7f2c1e3f08b4374c!2sBill%20%26%20Melinda%20Gates%20Hall%2C%20Cornell%20Bowers%20CIS!5e0!3m2!1sen!2sus!4v1700000000000"
+                        width="600"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Cornell Bowers CIS - Gates Hall Map">
+                    </iframe>
                 </div>
             </div>
         </section>
@@ -108,8 +80,13 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Component Loader -->
-    <script src="js/components.js"></script>
+    <script src="/js/components.js"></script>
     <!-- Custom JS -->
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <!-- Initialize Feather Icons -->
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>
+
