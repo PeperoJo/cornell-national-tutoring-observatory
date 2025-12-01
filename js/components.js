@@ -1,4 +1,18 @@
 // Component loader for navbar and footer
+function resolveComponentPath(relativePath) {
+    // Components live beside index.html at the site root.
+    // Compute how many segments deep the current page is (after the project root),
+    // then prefix "../" accordingly so paths work from subdirectories (e.g., /approach/).
+    const segments = window.location.pathname.split('/').filter(Boolean); // e.g. ["project", "approach", "page.html"]
+    if (segments.length <= 1) {
+        // At root or project root (e.g. /index.html or /project/)
+        return relativePath;
+    }
+    const depthFromRoot = segments.length - 1; // ignore the last segment (file)
+    const prefix = '../'.repeat(depthFromRoot - 1);
+    return prefix + relativePath;
+}
+
 async function loadComponent(elementId, componentPath) {
     try {
         const response = await fetch(componentPath);
@@ -64,12 +78,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const footerContainer = document.getElementById('footer-container');
     
     if (navbarContainer) {
-        // Use a path relative to the current page so it works on GitHub Pages and local servers
-        loadComponent('navbar-container', 'components/navbar.html');
+        loadComponent('navbar-container', resolveComponentPath('components/navbar.html'));
     }
     
     if (footerContainer) {
-        // Use a path relative to the current page so it works on GitHub Pages and local servers
-        loadComponent('footer-container', 'components/footer.html');
+        loadComponent('footer-container', resolveComponentPath('components/footer.html'));
     }
 });
