@@ -82,4 +82,43 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+    // Navbar inversion on full-screen hero (index page)
+    const body = document.body;
+    const heroSection = document.getElementById('hero-section');
+
+    if (body.classList.contains('hero-navbar-transparent') && heroSection) {
+        const updateNavbarState = () => {
+            const navbar = document.querySelector('.navbar');
+            if (!navbar) return;
+
+            const navbarHeight = navbar.offsetHeight || 0;
+            const heroTop = heroSection.offsetTop;
+            const heroHeight = heroSection.offsetHeight;
+            const heroBottom = heroTop + heroHeight;
+            const scrollY = window.scrollY || window.pageYOffset || 0;
+
+            // While the viewport top (plus navbar) is within the hero, invert navbar
+            if (scrollY + navbarHeight < heroBottom) {
+                body.classList.add('navbar-on-hero');
+            } else {
+                body.classList.remove('navbar-on-hero');
+            }
+        };
+
+        // Try a few times while components load, then rely on scroll/resize
+        let tries = 0;
+        const initInterval = setInterval(() => {
+            tries += 1;
+            updateNavbarState();
+            const navbar = document.querySelector('.navbar');
+            if (navbar || tries > 20) {
+                clearInterval(initInterval);
+            }
+        }, 100);
+
+        window.addEventListener('scroll', updateNavbarState);
+        window.addEventListener('resize', updateNavbarState);
+        window.addEventListener('load', updateNavbarState);
+    }
 });

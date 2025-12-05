@@ -15,87 +15,47 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-light" data-name="Desktop - 22" data-node-id="302:36160">
+<body class="bg-light hero-navbar-transparent no-navbar-padding" data-name="Desktop - 22" data-node-id="302:36160">
     <!-- Navbar Component -->
     <div id="navbar-container"></div>
 
     <main>
-        <!-- Hero Section -->
-       <section id="hero-section">
-            <div id="row-section" class="row g-0">
-                <div id="col-A" class="col-12 col-md-6">
-                    <div id="col-A-row-1" class="hero-tile border-bottom border-dark ">
-                        <!-- <span class="hero-h3">
-                            Welcome to the National Tutoring Observatory
-                        </span> -->
-                        <span class="hero-h1">
-                            Welcome to the National Tutoring Observatory
-                        </span>
-                        <span class="hero-h1">
-                            Observing Teaching, 
-                            <br>Transforming Learning
-                        </span>                        
-                    </div>
-                    <div id="col-A-row-2" class="hero-tile border-bottom border-dark d-flex flex-row">
-                        <div id="col-A-row-2-img1" class="border-end border-dark">
-                            <img src="img/hero/about.jpg" alt="Teaching" class="img-fluid h-100 w-100 object-fit-cover">
-                        </div>
-                        <div id="col-A-row-2-img2">
-                            <img src="img/hero/mission.jpg" alt="Education" class="img-fluid h-100 w-100 object-fit-cover">
-                        </div>
-                    </div>
-                </div>
-                <div id="col-B" class="col-12 col-md-6 border-start border-dark ">
-                    <div id="col-B-row-1" class="hero-tile border-bottom border-left border-dark d-flex flex-column flex-md-row-reverse overflow-hidden">
-                        <!-- <div id="col-A-row-2-img1" class="border-end border-dark">
-                            <img src="img/hero/about.jpg" alt="Teaching" class="img-fluid h-100 w-100 object-fit-cover">
-                        </div> -->
-                        <div class="subtile">
-                            <div class="h-100 w-100 bg-dark text-white p-4 d-flex flex-column justify-content-between border-end border-dark">
-                                <div>
-                                    <div class="d-flex align-items-center gap-2 mb-3 flex-wrap" >
-                                        <span class="fw-semibold">Blog</span>
-                                        <span class="opacity-75">•</span>
-                                        <span class="opacity-75">November 2</span>
-                                        <span class="opacity-75">•</span>
-                                        <span class="opacity-75">Rene Kizilcec</span>
-                                    </div>
-                                    <h3 class="fw-semibold mb-3" style="font-size: 24px;">Beyond the Lecture: How AI Is Personalizing Education</h3>
-                                    <p class="opacity-75 mb-4" data-node-id="302:36568">Exploring how adaptive learning systems are reshaping student engagement and classroom equity.</p>
-                                </div>
-                                <a href="blog.html" class="btn btn-outline-white rounded-pill d-inline-flex align-items-center gap-2">
-                                    <span>Read More</span>
-                                    <i data-feather="arrow-right" class="icon-20"></i>
-                                </a>
-                            </div>
-                        </div>
+        <!-- Previous hero variants kept for reference
+        <section id="full-banner" class="py-0 d-none">...</section>
+        -->
 
-                        <div id="col-A-row-2-img2" class="subtile">
-                            <img src="img/hero/work.jpg" alt="Education" class="img-fluid h-100 w-100 object-fit-cover">
-                        </div>
+        <!-- Hero Section (Figma: 390:6106) -->
+        <section id="hero-section" class="hero-fullscreen">
+            <div class="container-fluid px-0">
+                <div class="hero-banner position-relative overflow-hidden">
+                    <div id="hero-background" class="hero-banner-bg"></div>
+                    <div class="hero-banner-overlay"></div>
+                    <div class="hero-banner-content">
+                        <h1 class="hero-h1 hero-banner-heading text-white mb-0">
+                            Observing<br>
+                            Teaching,<br>
+                            Transforming<br>
+                            <span id="hero-typing-word" class="hero-typing-word">Learning</span>
+                        </h1>
                     </div>
-                    <div id="col-B-row-2" class="hero-tile border-bottom border-dark">
-                        <div class="h-100 w-100">
-                            <div class="h-100 w-100 text-white p-4 d-flex flex-column justify-content-between border-end border-dark" style="background-color: #b21b1b !important;">
-                                <div data-node-id="302:36572">
-                                    <div class="d-flex align-items-center gap-2 mb-3" data-node-id="302:36573">
-                                        <span class="fw-semibold" data-node-id="302:36575">News</span>
-                                        <span class="opacity-75">•</span>
-                                        <span class="opacity-75" data-node-id="302:36577">November 3</span>
-                                    </div>
-                                    <h3 class="fw-semibold mb-3" style="font-size: 24px;" data-node-id="302:36578">New Study Highlights the Role of Tutoring in Closing Post-Pandemic Learning Gaps</h3>
-                                    <p class="opacity-75 mb-4" data-node-id="302:36579">A new analysis by the NTO research team finds that consistent, high-quality tutoring can significantly narrow math and reading achievement gaps exacerbated by the ...</p>
-                                </div>
-                                <a href="news.html" class="btn btn-outline-white rounded-pill d-inline-flex align-items-center gap-2">
-                                    <span>Read More</span>
-                                    <i data-feather="arrow-right" class="icon-20"></i>
-                                </a>
-                            </div>
-                        </div>
+                    <div class="hero-dots-wrapper">
+                        <button class="hero-progress-dot active" data-hero-index="0" aria-label="Hero image 1"></button>
+                        <button class="hero-progress-dot" data-hero-index="1" aria-label="Hero image 2"></button>
+                        <button class="hero-progress-dot" data-hero-index="2" aria-label="Hero image 3"></button>
+                        <button class="hero-progress-dot" data-hero-index="3" aria-label="Hero image 4"></button>
+                        <button class="hero-progress-dot" data-hero-index="4" aria-label="Hero image 5"></button>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <!-- Original complex hero layout (hidden but kept for reference)
+        <section id="hero-section">
+            <div id="row-section" class="row g-0">
+                ...
+            </div>
        </section>
+       -->
 
         <!-- About Section -->
         <section class="py-5 px-3 px-lg-5">
@@ -298,6 +258,8 @@
     <script src="js/components.js"></script>
     <!-- GitHub Widget -->
     <script src="js/github-widget.js"></script>
+    <!-- Hero interactions -->
+    <script src="js/hero.js"></script>
     <!-- Custom JS -->
     <script src="js/main.js"></script>
 </body>

@@ -29,7 +29,7 @@ async function loadComponent(elementId, componentPath) {
         const html = await response.text();
         const container = document.getElementById(elementId);
         const basePath = getBasePath();
-
+        
         if (!container) {
             console.error(`Container element ${elementId} not found`);
             return;
