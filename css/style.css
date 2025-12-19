@@ -524,7 +524,7 @@ body.hero-navbar-transparent.navbar-on-hero .navbar-toggler-icon {
 
 /* Navbar brand image sizing */
 .navbar-brand img {
-    height: 60px !important;
+    height: 72px !important;
     width: auto !important;
     object-fit: contain;
 }
