@@ -475,14 +475,19 @@ body.hero-navbar-transparent.navbar-on-hero .navbar.navbar-expanded-dark {
     background-color: rgba(0, 0, 0, 0.9) !important;
 }
 
-body.hero-navbar-transparent.navbar-on-hero .navbar .dropdown-item {
-    color: #222222 !important;
+body.hero-navbar-transparent.navbar-on-hero .navbar .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
 }
 
-/* Keep dropdown menus with light background even over the hero image */
-body.hero-navbar-transparent.navbar-on-hero .navbar .dropdown-menu {
-    background-color: #ffffff !important;
-    border-color: #000 !important;
+body.hero-navbar-transparent.navbar-on-hero .navbar .dropdown-item {
+    color: #ffffff !important;
+}
+
+body.hero-navbar-transparent.navbar-on-hero .navbar .dropdown-item:hover,
+body.hero-navbar-transparent.navbar-on-hero .navbar .dropdown-item:focus {
+    color: var(--primary-red) !important;
+    background-color: transparent !important;
 }
 
 /* Collapsed mobile navbar menu (all links) - use inverse (dark) scheme over hero */
