@@ -578,6 +578,107 @@ body.hero-navbar-transparent.navbar-on-hero .navbar-toggler-icon {
     padding-bottom: 48px;
 }
 
+/* Tutoring providers card styling (Team page) */
+.provider-card {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+#team-members-container .provider-card:not(:last-child) {
+    border-bottom: 1px solid var(--text-dark);
+}
+
+.provider-inner {
+    gap: 32px !important;
+}
+
+.provider-logo-container {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #050807;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.provider-logo {
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+    display: block;
+}
+
+.provider-name {
+    color: var(--text-dark);
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.provider-header {
+    gap: 24px;
+    width: 100%;
+}
+
+.provider-info,
+.provider-social {
+    flex: 1 1 0;
+}
+
+.provider-social {
+    align-items: flex-start;
+    padding-top: 8px;
+}
+
+.provider-contact-name {
+    color: var(--text-dark);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.provider-contact-title {
+    color: var(--text-dark);
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    opacity: 0.85;
+}
+
+.provider-contact-bio {
+    color: var(--text-dark);
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.8;
+}
+
+.provider-contact-image-container {
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #050807;
+    border: 1px solid #050807;
+}
+
+.provider-contact-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 .member-card[style*="display: none"] {
     display: none !important;
 }
@@ -588,14 +689,14 @@ body.hero-navbar-transparent.navbar-on-hero .navbar-toggler-icon {
 }
 
 .member-inner {
-    gap: 24px !important; /* Match Figma 24px gap */
+    gap: 32px !important;
 }
 
 .member-image-container {
     flex-shrink: 0;
     width: 200px;
-    height: 220px;
-    border-radius: 0;
+    height: 200px;
+    border-radius: 50%;
     overflow: hidden;
     background-color: #050807;
     border: 1px solid #050807;
@@ -654,7 +755,8 @@ body.hero-navbar-transparent.navbar-on-hero .navbar-toggler-icon {
     padding-top: 8px;
 }
 
-.member-social a {
+.member-social a,
+.provider-social a {
     color: var(--primary-red) !important;
     transition: opacity 0.2s ease;
     display: flex;
@@ -665,7 +767,8 @@ body.hero-navbar-transparent.navbar-on-hero .navbar-toggler-icon {
     opacity: 0.8;
 }
 
-.member-social span {
+.member-social span,
+.provider-social span {
     color: var(--text-dark);
     font-family: Inter, sans-serif;
     font-size: 16px;
@@ -680,9 +783,10 @@ body.hero-navbar-transparent.navbar-on-hero .navbar-toggler-icon {
     }
 
     .member-image-container {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 4 / 3; /* Maintain 4:3 aspect ratio on small viewports */
+        width: 200px;
+        height: 200px;
+        aspect-ratio: 1 / 1; /* Maintain square for circular image */
+        margin: 0 auto;
     }
 
     /* Stack general info above social links on small viewports */
@@ -692,6 +796,16 @@ body.hero-navbar-transparent.navbar-on-hero .navbar-toggler-icon {
 
     .member-info,
     .member-social {
+        width: 100%;
+    }
+
+    .provider-header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .provider-info,
+    .provider-social {
         width: 100%;
     }
 }
@@ -710,7 +824,11 @@ body.hero-navbar-transparent.navbar-on-hero .navbar-toggler-icon {
 
     .member-image-container {
         width: 200px;
-        height: 220px;
+        height: 200px;
+    }
+
+    .provider-header {
+        flex-direction: row;
     }
 }
 
@@ -803,4 +921,12 @@ h1.hero-banner-heading {
         font-size: 48px;
         line-height: 1.05;
     }
+}
+
+.stakeholder-h2 {
+    color: var(--text-dark);
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
 }

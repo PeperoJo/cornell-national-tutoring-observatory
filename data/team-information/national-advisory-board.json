@@ -1,38 +1,63 @@
 [
   {
-    "name": "Dr. Patricia Williams",
-    "position": "Advisory Board Member",
-    "img": "img/team/national-advisory-board/patricia-williams.jpg",
-    "description": "Dr. Williams is a nationally recognized expert in education policy and research. She has advised numerous federal and state education initiatives and brings deep insights into educational equity and access.",
+    "name": "Jason Godfrey",
+    "position": "Accelerate",
+    "img": "img/team/national-advisory-board/Jason-Godfrey.jpeg",
+    "description": "",
     "social": {
-      "website": "",
+      "website": "https://accelerate.us/person/jason-godfrey/",
       "email": "",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": ""
     }
-  },
-  {
-    "name": "Dr. Robert Martinez",
-    "position": "Advisory Board Member",
-    "img": "img/team/national-advisory-board/robert-martinez.jpg",
-    "description": "Dr. Martinez is a prominent researcher in learning sciences and cognitive psychology. His work on student motivation and engagement has influenced tutoring practices nationwide.",
+  },{
+    "name": "Laina Vlasnik Yip",
+    "position": "Robin Hood",
+    "img": "img/team/national-advisory-board/Laina-Vlasnik-Yip.jpeg",
+    "description": "",
     "social": {
       "website": "",
       "email": "",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/lainayip/",
+      "cv": ""
     }
-  },
-  {
-    "name": "Dr. Jennifer Kim",
-    "position": "Advisory Board Member",
-    "img": "img/team/national-advisory-board/jennifer-kim.jpg",
-    "description": "Dr. Kim is an expert in educational technology and data science. She has led large-scale research projects on the effectiveness of tutoring interventions and learning analytics.",
+  },{
+    "name": "Matt Kraft",
+    "position": "Brown University",
+    "img": "img/team/national-advisory-board/Matt-Kraft.jpeg",
+    "description": "",
+    "social": {
+      "website": "https://vivo.brown.edu/display/mkraft",
+      "email": "",
+      "twitter": "",
+      "linkedin": "",
+      "cv": ""
+    }
+  },{
+    "name": "Jessica Tang",
+    "position": "AFT (MA National Representative)",
+    "img": "img/team/national-advisory-board/Jessica-Tang.jpeg",
+    "description": "",
+    "social": {
+      "website": "https://www.aft.org/about/leadership/jessica-j-tang",
+      "email": "",
+      "twitter": "",
+      "linkedin": "",
+      "cv": ""
+    }
+  },{
+    "name": "Stefanie Druga",
+    "position": "sakana.ai",
+    "img": "img/team/national-advisory-board/Stefanie-Druga.jpeg",
+    "description": "",
     "social": {
       "website": "",
       "email": "",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/drugastefania/",
+      "cv": ""
     }
   }
 ]

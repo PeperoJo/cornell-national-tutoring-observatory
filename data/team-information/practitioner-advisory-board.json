@@ -1,38 +1,123 @@
 [
   {
-    "name": "Sarah Johnson",
-    "position": "Advisory Board Member",
-    "img": "img/team/practitioner-advisory-board/sarah-johnson.jpg",
-    "description": "Sarah brings extensive experience in K-12 education and tutoring practices. She has worked with school districts across the country to implement effective tutoring programs that improve student outcomes.",
+    "name": "Nancy Anderson",
+    "position": "Milton Public Schools",
+    "img": "img/team/practitioner-advisory-board/Nancy-Anderson.jpeg",
+    "description": "",
     "social": {
-      "website": "",
+      "website": "https://nancyandersonmath.com/",
       "email": "",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": "https://drive.google.com/file/d/1pIlWPCsmZKp8VLzLpo7lYMXpyWIEgI6k/view"
     }
-  },
-  {
-    "name": "Michael Chen",
-    "position": "Advisory Board Member",
-    "img": "img/team/practitioner-advisory-board/michael-chen.jpg",
-    "description": "Michael is a veteran educator with over 20 years of experience in curriculum development and instructional design. He specializes in creating evidence-based tutoring interventions.",
+  },{
+    "name": "Linda Ruiz Davenport",
+    "position": "Teachers Development Program",
+    "img": "img/team/practitioner-advisory-board/Linda-Ruiz-Davenport.jpeg",
+    "description": "",
     "social": {
       "website": "",
       "email": "",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/linda-ruiz-davenport-84363518/",
+      "cv": "https://drive.google.com/file/d/129wKEAqoOshvcGyw9hQ8BGObTSNEktg2/view"
     }
-  },
-  {
-    "name": "Emily Rodriguez",
-    "position": "Advisory Board Member",
-    "img": "img/team/practitioner-advisory-board/emily-rodriguez.jpg",
-    "description": "Emily is a leading practitioner in online tutoring and has developed innovative approaches to remote learning. Her work focuses on equity and access in educational technology.",
+  },{
+    "name": "Phylissa Thomas",
+    "position": "Manchester Academic Charter School",
+    "img": "img/team/practitioner-advisory-board/Phylissa-Thomas.jpeg",
+    "description": "",
     "social": {
       "website": "",
       "email": "",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/phylissa-thomas-0597b636/",
+      "cv": "https://drive.google.com/file/d/1kKE31TdomyZFFZE6of8x597rk34eCOYN/view"
+    }
+  },{
+    "name": "Jennifer St. John",
+    "position": "Leicester High School",
+    "img": "img/team/practitioner-advisory-board/Jennifer-St-John.jpeg",
+    "description": "",
+    "social": {
+      "website": "",
+      "email": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/jennifer-st-john-ph-d-b57aaa198/",
+      "cv": "https://drive.google.com/file/d/1pk9W2IJMOyYFja3_RYFMG_29EbMOk0-J/view"
+    }
+  },{
+    "name": "Kate Bauer-Jones",
+    "position": "Future Forward at Springboard Collaborative",
+    "img": "img/team/practitioner-advisory-board/Kate-Bauer-Jones.jpeg",
+    "description": "",
+    "social": {
+      "website": "",
+      "email": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/kate-bauer-jones/",
+      "cv": "https://drive.google.com/file/d/1cA_-He4b122TXPNQPsmn4DqlTXUmTZ-x/view"
+    }
+  },{
+    "name": "Marco Nava",
+    "position": "Los Angeles Unified School District",
+    "img": "img/team/practitioner-advisory-board/Marco-Nava.jpeg",
+    "description": "",
+    "social": {
+      "website": "",
+      "email": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/manavita/",
+      "cv": ""
+    }
+  },{
+    "name": "Anna Roe",
+    "position": "Crowley Independent School District",
+    "img": "img/team/practitioner-advisory-board/Anna-Roe.jpeg",
+    "description": "",
+    "social": {
+      "website": "",
+      "email": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/anna-roe-a6b411311/",
+      "cv": ""
+    }
+  },{
+    "name": "Whitney Romero",
+    "position": "Tioga Central School District",
+    "img": "img/team/placeholder.png",
+    "description": "",
+    "social": {
+      "website": "",
+      "email": "",
+      "twitter": "",
+      "linkedin": "",
+      "cv": ""
+    }
+  },{
+    "name": "Rose Wang",
+    "position": "Crowley Independent School District",
+    "img": "img/team/practitioner-advisory-board/Rose-Wang.jpeg",
+    "description": "",
+    "social": {
+      "website": "https://rosewang2008.github.io/",
+      "email": "",
+      "twitter": "",
+      "linkedin": "",
+      "cv": ""
+    }
+  },{
+    "name": "Dan Meyer",
+    "position": "Amplify",
+    "img": "img/team/practitioner-advisory-board/Dan-Meyer.jpeg",
+    "description": "",
+    "social": {
+      "website": "",
+      "email": "",
+      "twitter": "",
+      "linkedin": "https://www.linkedin.com/in/dan-meyer-02922a109/",
+      "cv": ""
     }
   }
 ]

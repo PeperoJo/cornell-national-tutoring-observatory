@@ -8,7 +8,8 @@
       "website": "https://rene.kizilcec.com/",
       "email": "kizilcec@cornell.edu",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": ""
     }
   },
   {
@@ -20,19 +21,21 @@
       "website": "https://tsl.mit.edu/team/justin-reich/",
       "email": "jreich@mit.edu",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": ""
     }
   },
   {
     "name": "Rachel Slama",
     "position": "Partnership Director & Co-PI",
     "img": "img/team/core/rachel-slama.jpg",
-    "description": "Rachel Slama is Associate Director of the Future of Learning Lab at Cornell's Bowers College of Computing and Information Science. Her research explores how technology can accelerate learning in a rapidly evolving education landscape. She also serves as Co-PI and Partnerships Director of the National Tutoring Observatory. Previously, she led workforce and training initiatives at RAND, MIT, and the NSF. Slama holds a doctorate in Education Policy from Harvard, is a former NYC teacher, and a parent of four public school students—fueling her commitment to building technology that truly serves educators and learners.",
+    "description": "Rachel Slama is Associate Director of the Future of Learning Lab at Cornell's Bowers College of Computing and Information Science. Her research explores how technology can accelerate learning in a rapidly evolving education landscape. Previously, she led workforce and training initiatives at RAND, MIT, and the NSF. Slama holds a doctorate in Education Policy from Harvard and is a former NYC teacher, fueling her commitment to building technology that truly serves educators and learners.",
     "social": {
-      "website": "https://www.rand.org/pubs/authors/s/slama_rachel.html",
-      "email": "rslama@rand.org",
+      "website": "",
+      "email": "rslama@cornell.edu",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/rachel-slama/",
+      "cv": ""
     }
   },
   {
@@ -44,7 +47,8 @@
       "website": "https://hcii.cmu.edu/people/ken-koedinger",
       "email": "koedinger@cmu.edu",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": ""
     }
   },
   {
@@ -56,7 +60,8 @@
       "website": "https://scholar.google.com/citations?user=PMEBVS8AAAAJ&hl=en",
       "email": "drthomas@cmu.edu",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": ""
     }
   },
   {
@@ -68,7 +73,8 @@
       "website": "",
       "email": "",
       "twitter": "",
-      "linkedin": "https://www.linkedin.com/in/dougpietrzak"
+      "linkedin": "https://www.linkedin.com/in/dougpietrzak",
+      "cv": ""
     }
   },
   {
@@ -80,7 +86,8 @@
       "website": "",
       "email": "las539@cornell.edu",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": ""
     }
   },
   {
@@ -92,7 +99,8 @@
       "website": "https://www.linkedin.com/in/joshua-marland-86b0b84/",
       "email": "jmarland@cornell.edu",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": ""
     }
   },
   {
@@ -104,7 +112,8 @@
       "website": "",
       "email": "sms252@cornell.edu",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": ""
     }
   },
   {
@@ -116,7 +125,8 @@
       "website": "",
       "email": "las539@cornell.edu",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": ""
     }
   },
   {
@@ -128,7 +138,8 @@
       "website": "",
       "email": "kpv27@cornell.edu",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": ""
     }
   },
   {
@@ -140,7 +151,8 @@
       "website": "",
       "email": "ba453@cornell.edu",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": ""
     }
   },
   {
@@ -152,7 +164,34 @@
       "website": "",
       "email": "zz2404@tc.columbia.edu",
       "twitter": "",
-      "linkedin": ""
+      "linkedin": "",
+      "cv": ""
+    }
+  },
+  {
+    "name": "Jorge Dias",
+    "position": "Software Engineer",
+    "img": "img/team/core/jorge-dias.jpeg",
+    "description": "Jorge is a Software Engineer with over 20 years of experience helping companies build products, infrastructure and teams. He’s pragmatic and results driven. He’s worked on all layers of the web stack through his career, frontend, backend and devops and he’s also built and grown high performing teams. Jorge’s specialty is turning ideas into working solutions.",
+    "social": {
+      "website": "",
+      "email": "",
+      "twitter": "",
+      "linkedin": "",
+      "cv": ""
+    }
+  },
+  {
+    "name": "Ian Burden",
+    "position": "Software Engineer",
+    "img": "img/team/core/ian-burden.jpeg",
+    "description": "Ian is a seasoned software engineer with deep experience building and scaling open-source ecosystems. He specializes in designing, automating, and delivering resilient cloud infrastructures that organizations can rely on. Known for complex application delivery, he brings strong expertise in Linux, cybersecurity, and distributed computing. A long-time advocate for open-source principles, Ian has spent decades helping teams solve challenging problems at scale. ",
+    "social": {
+      "website": "",
+      "email": "",
+      "twitter": "",
+      "linkedin": "",
+      "cv": ""
     }
   }
 ]
