@@ -56,6 +56,25 @@ async function loadComponent(elementId, componentPath) {
                 link.setAttribute('href', basePath + clean);
             });
         }
+
+        // Fix footer links similarly so they work from any subpage
+        if (elementId === 'footer-container') {
+            const links = container.querySelectorAll('a[href]');
+            links.forEach(link => {
+                const href = link.getAttribute('href');
+                // Skip external links, anchors, and mailto
+                if (
+                    !href ||
+                    href.startsWith('http') ||
+                    href.startsWith('#') ||
+                    href.startsWith('mailto:')
+                ) {
+                    return;
+                }
+                const clean = href.replace(/^\//, '');
+                link.setAttribute('href', basePath + clean);
+            });
+        }
         
         // Re-initialize Feather icons after component loads
         if (typeof feather !== 'undefined') {
