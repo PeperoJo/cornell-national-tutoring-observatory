@@ -121,4 +121,19 @@ document.addEventListener('DOMContentLoaded', function() {
         window.addEventListener('resize', updateNavbarState);
         window.addEventListener('load', updateNavbarState);
     }
+
+    // Darken entire navbar when mobile menu is expanded over hero, revert when collapsed
+    const navbar = document.querySelector('.navbar');
+    const navbarCollapse = document.getElementById('navbarNav');
+    if (navbar && navbarCollapse) {
+        navbarCollapse.addEventListener('shown.bs.collapse', () => {
+            if (body.classList.contains('hero-navbar-transparent') && body.classList.contains('navbar-on-hero')) {
+                navbar.classList.add('navbar-expanded-dark');
+            }
+        });
+
+        navbarCollapse.addEventListener('hidden.bs.collapse', () => {
+            navbar.classList.remove('navbar-expanded-dark');
+        });
+    }
 });

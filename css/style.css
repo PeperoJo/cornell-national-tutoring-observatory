@@ -335,7 +335,7 @@ img {
 
 .hero-h1 {
     color: var(--text-dark);
-    font-family: Inter;
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -343,7 +343,7 @@ img {
 }
 .hero-h2 {
     color: var(--text-dark);
-    font-family: Inter;
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
@@ -351,7 +351,7 @@ img {
 }
 .hero-h3 {
     color: var(--text-dark);
-    font-family: Inter;
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -470,6 +470,11 @@ body.hero-navbar-transparent.navbar-on-hero .navbar.bg-light {
     background-color: transparent !important;
 }
 
+/* When mobile menu is expanded over hero, darken entire navbar background */
+body.hero-navbar-transparent.navbar-on-hero .navbar.navbar-expanded-dark {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
 body.hero-navbar-transparent.navbar-on-hero .navbar .dropdown-item {
     color: #222222 !important;
 }
@@ -480,13 +485,28 @@ body.hero-navbar-transparent.navbar-on-hero .navbar .dropdown-menu {
     border-color: #000 !important;
 }
 
-/* Collapsed mobile navbar menu (all links) should also use light background */
+/* Collapsed mobile navbar menu (all links) - use inverse (dark) scheme over hero */
 body.hero-navbar-transparent.navbar-on-hero .navbar .navbar-collapse.show {
-    background-color: #ffffff !important;
+    background-color: rgba(0, 0, 0, 0.9) !important;
 }
 
 body.hero-navbar-transparent.navbar-on-hero .navbar .navbar-collapse.show .nav-link {
-    color: var(--text-dark) !important;
+    color: #ffffff !important;
+}
+
+body.hero-navbar-transparent.navbar-on-hero .navbar .navbar-collapse.show .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+body.hero-navbar-transparent.navbar-on-hero .navbar .navbar-collapse.show .dropdown-item {
+    color: #ffffff !important;
+}
+
+body.hero-navbar-transparent.navbar-on-hero .navbar .navbar-collapse.show .dropdown-item:hover,
+body.hero-navbar-transparent.navbar-on-hero .navbar .navbar-collapse.show .dropdown-item:focus {
+    color: var(--primary-red) !important;
+    background-color: transparent !important;
 }
 
 body.hero-navbar-transparent.navbar-on-hero .navbar-brand img {
@@ -906,7 +926,7 @@ body.hero-navbar-transparent.navbar-on-hero .navbar-toggler-icon {
 /* Override hero heading styles specifically for full-screen banner */
 h1.hero-banner-heading {
     font-weight: 300;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.1em;
 }
 
 @media (min-width: 992px) {

@@ -8,14 +8,17 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    // Hero background images (reuse existing hero assets)
-    const heroImages = [
+    // Default hero background images (reuse existing hero assets)
+    const defaultHeroImages = [
         'img/hero/mission.jpg',
         'img/hero/about.jpg',
         'img/hero/work.jpg',
         'img/hero/news.jpg',
         'img/hero/news2.jpg'
     ];
+
+    // Images currently in use (can be overridden from JSON)
+    let heroImages = [...defaultHeroImages];
 
     let currentImageIndex = 0;
     let imageIntervalId = null;
@@ -63,9 +66,31 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Initialize hero background
-    setHeroImage(0);
-    startImageRotation();
+    function initHeroImages(images) {
+        if (Array.isArray(images) && images.length > 0) {
+            heroImages = images;
+        } else {
+            heroImages = [...defaultHeroImages];
+        }
+
+        setHeroImage(0);
+        startImageRotation();
+    }
+
+    // Initialize hero background with defaults first
+    initHeroImages(defaultHeroImages);
+
+    // Optionally override hero images from JSON config for easier editing
+    fetch('data/hero-images.json')
+        .then(response => response.ok ? response.json() : Promise.reject())
+        .then(data => {
+            if (Array.isArray(data.images) && data.images.length > 0) {
+                initHeroImages(data.images);
+            }
+        })
+        .catch(() => {
+            // On error, keep using default images
+        });
 
     // Typing animation for final word (loaded from JSON)
     function startTyping(words) {
