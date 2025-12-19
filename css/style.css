@@ -273,6 +273,16 @@ img {
     background-color: #ffffff;
 }
 
+/* Approach diagrams: constrain width and center images */
+#approach-diagram-1 img,
+#approach-diagram-2 img {
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .body-text {
     color: var(--text-dark);
     font-family: Inter;
