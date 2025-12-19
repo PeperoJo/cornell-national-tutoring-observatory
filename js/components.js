@@ -44,6 +44,11 @@ async function loadComponent(elementId, componentPath) {
             if (!src || src.startsWith('http') || src.startsWith('data:')) return;
             const clean = src.replace(/^\//, ''); // remove leading slash if present
             img.setAttribute('src', basePath + clean);
+
+            // Apply lazy loading to component images unless explicitly disabled
+            if (!img.hasAttribute('loading')) {
+                img.setAttribute('loading', 'lazy');
+            }
         });
 
         // Fix navbar links so they always point to project-root pages (not relative to subdirectories)

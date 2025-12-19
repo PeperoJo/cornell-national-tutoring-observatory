@@ -136,4 +136,12 @@ document.addEventListener('DOMContentLoaded', function() {
             navbar.classList.remove('navbar-expanded-dark');
         });
     }
+
+    // Global lazy loading for images present at initial DOMContentLoaded
+    const allImgs = document.querySelectorAll('img');
+    allImgs.forEach(img => {
+        if (!img.hasAttribute('loading')) {
+            img.setAttribute('loading', 'lazy');
+        }
+    });
 });
