@@ -37,7 +37,7 @@ async function loadGitHubWidget() {
             ${orgData.description || orgData.bio ? `
             <p class="body-text mb-3">${orgData.description || orgData.bio}</p>
             ` : ''}
-            <div class="row g-3 mb-4">
+            <div class="row g-3 mb-4 d-none">
                 <div class="col-6">
                     <div class="small text-uppercase text-muted">Public Repos</div>
                     <div class="fw-semibold">${orgData.public_repos ?? '-'}</div>
